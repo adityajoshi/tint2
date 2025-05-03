@@ -1,4 +1,7 @@
 # Latest stable release: 17.0.2
+
+This is a fork of original repo!
+
 Changes: https://gitlab.com/o9000/tint2/blob/17.0.2/ChangeLog
 
 Documentation: [doc/tint2.md](doc/tint2.md)
