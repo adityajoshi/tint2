@@ -71,7 +71,7 @@ add_definitions( -DLOCALEDIR=\"${CMAKE_INSTALL_FULL_LOCALEDIR}\" )
 add_definitions( -DGETTEXT_PACKAGE=\"tint2conf\" )
 add_definitions( -DDGLIB_DISABLE_DEPRECATION_WARNINGS=1 )
 set_target_properties( tint2conf PROPERTIES COMPILE_FLAGS "-Wall -Wpointer-arith -fno-strict-aliasing -pthread -std=c99 -Werror-implicit-function-declaration -Wno-deprecated -Wno-deprecated-declarations" )
-set_target_properties( tint2conf PROPERTIES LINK_FLAGS "-pthread" )
+set_target_properties( tint2conf PROPERTIES LINK_FLAGS "-pthread -lm" )
 
 add_subdirectory(po)
 
