@@ -1,17 +1,16 @@
-# Latest stable release: 17.0.2
+# Latest stable release: 17.0.3
 
 This is a fork of original repo!
 
-Changes: https://gitlab.com/o9000/tint2/blob/17.0.2/ChangeLog
+Changes: [ChangeLog](/ChangeLog)
 
 Documentation: [doc/tint2.md](doc/tint2.md)
 
 Compile it with (after you install the [dependencies](https://gitlab.com/o9000/tint2/wikis/Install#dependencies)):
 
 ```
-git clone https://gitlab.com/o9000/tint2.git
+git clone https://github.com/adityajoshi/tint2.git
 cd tint2
-git checkout 17.0.2
 mkdir build
 cd build
 cmake ..
@@ -29,8 +28,6 @@ update-mime-database /usr/local/share/mime
 And then you can run the panel `tint2` and the configuration program `tint2conf`.
 
 Please report any problems to https://gitlab.com/o9000/tint2/issues. Your feedback is much appreciated.
-
-P.S. GitLab is now the official location of the tint2 project, migrated from Google Code, which is shutting down. In case you are wondering why not GitHub, BitBucket etc., we chose GitLab because it is open source, it is mature and works well, looks cool and has a very nice team.
 
 # What is tint2?
 
