@@ -1,3 +1,6 @@
+2025-05-03 17.0.3
+- Fixes:
+  - On Fedora 42, build for tint2conf fails during linking.
 2021-12-04 17.0.2
 - Fixes:
   - On dual monitor, when minimizing Chrome window it minimizes on the wrong monitor panel (issue #818)
